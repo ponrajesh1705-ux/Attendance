@@ -4,17 +4,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <img src="nec_logo_transparent.png" alt="NEC Logo"> 
     <h1>COLLEGE ATTENDANCE</h1>
-    <div class=" login container">
+    <div class=" login container"> 
         <h2>Login</h2>  
-        <label> USERNAME</label>  
-        <input type="text" id="username">    
-        <label> PASSWORD </label>  
-        <input type="password" id="password">
+        <label> USERNAME</label> 
+        <div class="input-container">
+            <span>👤</span> 
+            <input type="text" id="username"
+            placeholder="Enter your username">   
+        </div> 
+        <label> PASSWORD </label>
+        <div class="input-container">
+            <span>🔒</span> 
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
         <button id="loginButton">LOGIN</button> 
         <p>OR</p>
-        <button>CONTINUE WITH GOOGLE</button>    
+        <button id="googleButton"><img src="google_logo_transparent.png" alt="Google" placeholder="Continue with Google"> Continue with Google</button>        
     </div>
     <script src="script.js"></script>
 </body>    
-</html>  
+</html>   
