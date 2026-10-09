@@ -101,4 +101,24 @@ label {
      margin-top: 10px;
      margin-bottom: 10px;
           color:black;
- }      
+ }  
+#NEWUSER {
+     display: flex;
+     justify-content: center;
+     gap: 8px;
+     margin-top: 10px;
+     background-color: white;
+     color: black;
+     padding: 10px 25px;
+     border-radius: 8px;
+     border: none;
+     cursor: pointer;
+     width: 180px;  
+     margin-left:auto;
+     margin-right:auto;
+     border: 1px solid lightgray;
+     white-space: nowrap; 
+}  
+#NEWUSER:hover {
+     background-color: gray;  
+}  
