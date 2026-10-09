@@ -12,5 +12,6 @@ console.log(password);
 let newUserButton = document.getElementById("NEWUSER");
 console.log(newUserButton);
  newUserButton.addEventListener("click", function() {
-    // Handle new user button click
- }); 
+    window.location.href = "register.html";
+ });  
+ 
