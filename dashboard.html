@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NEC Student Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+    <div class="dashboard-container">  
+
+        <!-- Left Sidebar --> 
+        <aside class="sidebar">  
+            <div class="college-title">
+                <h2>NEC</h2>
+                <p>COLLEGE ATTENDANCE</p> 
+            </div>
+
+            <nav> 
+                <ul>
+                    <li><a href="#" class="active">Dashboard</a></li>
+                    <li><a href="#">Attendance</a></li>
+                    <li><a href="#">Subjects</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                Student Portal  
+            </div>
+        </aside> 
+
+        <!-- Right Main Content -->
+        <main class="main-content">
+
+            <header class="dashboard-header">
+                <div>
+                    <h1>Student Dashboard</h1>
+                    <h2>Welcome, Student!</h2>
+                    <p>Here's an overview of your academic progress.</p>
+                </div>
+
+                <div class="student-profile">
+                    <div class="profile-icon">S</div>
+                    <span>Student</span> 
+                </div>
+            </header> 
+
+            <!-- Attendance Summary -->
+            <section class="attendance-cards">
+
+                <article class="attendance-card present-card">
+                    <p class="card-label">Total Present</p>
+                    <h2>45</h2>
+                    <p class="card-note">Classes attended</p>
+                </article>
+
+                <article class="attendance-card absent-card">
+                    <p class="card-label">Total Absent</p>
+                    <h2>5</h2>
+                    <p class="card-note">Classes missed</p>
+                </article>
+
+                <article class="attendance-card percentage-card">
+                    <p class="card-label">Attendance Percentage</p>
+                    <h2>90%</h2>
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                </article>
+
+            </section>
+
+            <!-- Subject-wise Attendance -->
+            <section class="subject-attendance">
+
+                <div class="section-heading"> 
+                    <h2>Subject-wise Attendance</h2>
+                    <p>Your attendance in each subject</p>
+                </div>
+
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Subject</th>
+                                <th>Total Classes</th>
+                                <th>Present</th>
+                                <th>Absent</th>
+                                <th>Attendance</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Mathematics</td>
+                                <td>20</td>
+                                <td>18</td>
+                                <td>2</td>
+                                <td><span class="percentage">90%</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Physics</td>
+                                <td>20</td>
+                                <td>19</td>
+                                <td>1</td>
+                                <td><span class="percentage">95%</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Problem solving techniques</td>
+                                <td>20</td>
+                                <td>17</td>
+                                <td>3</td>
+                                <td><span class="percentage">85%</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Engineering Chemistry</td>
+                                <td>20</td>
+                                <td>18</td>
+                                <td>2</td>
+                                <td><span class="percentage">90%</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>English</td>
+                                <td>20</td>
+                                <td>18</td>
+                                <td>2</td>
+                                <td><span class="percentage">90%</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div> 
+
+            </section>
+
+            <footer class="dashboard-footer">
+                NEC College Attendance System
+            </footer>
+
+        </main>
+    </div>
+
+</body>
+</html>
+ 

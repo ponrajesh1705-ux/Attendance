@@ -1,17 +1,14 @@
-document.getElementById("loginButton") 
+document.getElementById("loginButton");
 let loginButton = document.getElementById("loginButton");
-console.log(loginButton); 
+console.log(loginButton);
 loginButton.addEventListener("click", function() {
-document.getElementById("username").value 
-let username = document.getElementById("username").value;
-console.log(username);
-document.getElementById("password").value
-let password = document.getElementById("password").value;
-console.log(password);  
-});  
+    window.location.href = "dashboard.html";
+}); 
+
 let newUserButton = document.getElementById("NEWUSER");
 console.log(newUserButton);
- newUserButton.addEventListener("click", function() {
+newUserButton.addEventListener("click", function() {
     window.location.href = "register.html";
- });  
+});  
+
  
